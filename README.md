@@ -1,2 +1,3 @@
-# internshiportfolio
-Internship Portfolio
+# My Internship Portfolio
+
+A simple internship portfolio website.
