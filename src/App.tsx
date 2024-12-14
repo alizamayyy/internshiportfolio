@@ -7,19 +7,11 @@ import {
   Link,
   Button,
 } from "@nextui-org/react";
-import Typewriter from "typewriter-effect";
-import MyTechStack from "./techstack.tsx"; // Import the new component
 import Projects from "./projects.tsx";
 import About from "./about.tsx";
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import {
-  type Container,
-  type ISourceOptions,
-  MoveDirection,
-  OutMode,
-} from "@tsparticles/engine";
-import { loadSlim } from "@tsparticles/slim"; // Slim version for smaller bundle size
+import { type ISourceOptions } from "@tsparticles/engine";
 import { loadSnowPreset } from "@tsparticles/preset-snow";
 
 export default function App() {
