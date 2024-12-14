@@ -311,7 +311,7 @@ export default function App() {
         <div className="flex justify-center mt-4">
           <div className="relative w-4/6 h-full mt-6">
             <img
-              src="/portrait.png"
+              src="/portrait1.png"
               alt="Aliza May"
               className="w-full h-full object-cover"
             />
