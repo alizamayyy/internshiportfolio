@@ -1,0 +1,13 @@
+.tech-icon {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 4rem; /* Adjust size if needed */
+  height: 4rem;
+  object-fit: contain;
+  background: none; /* Ensure no background */
+  border: none; /* Remove any border */
+}
+
+.tech-icon:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px rgba(253, 142, 169, 0.8); /* Set box-shadow to #fd8ea9 */
+}

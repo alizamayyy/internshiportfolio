@@ -6,6 +6,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  height: 100%;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -16,6 +17,36 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+html {
+  scroll-behavior: auto; /* Enable smooth scrolling */
+}
+
+section {
+  padding-top: 100px; /* Ensure the sections are not hidden behind the navbar */
+}
+
+#home {
+  padding-top: 100px;
+}
+
+#about {
+  padding-top: 100px;
+}
+
+#projects {
+  padding-top: 100px;
+}
+
+.polaroid-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for scaling and shadow */
+}
+
+.polaroid-card:hover {
+  transform: scale(1.05); /* Scale the card by 5% */
+  box-shadow: 0px 4px 20px rgba(255, 105, 180, 0.7); /* Pink shadow */
+}
+
 
 /* a {
   font-weight: 500;
