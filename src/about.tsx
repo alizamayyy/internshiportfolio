@@ -11,7 +11,9 @@ interface AboutProps {
 const About: React.FC<AboutProps> = ({ strings, techStackImages }) => {
   return (
     <div>
-      <div className="font-bold text-6xl -mt-20 mb-4 text-center">About Me</div>
+      <div className="font-bold text-6xl -mt-20 mb-4 text-center">
+        About Me🌸
+      </div>
       <p className="text-center">Get to know me!</p>
       <div className="grid grid-cols-2 items-center">
         <div>
