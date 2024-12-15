@@ -18,7 +18,7 @@ interface ProjectsProps {
 const Projects: React.FC<ProjectsProps> = ({ projects }) => {
   return (
     <div className="mt-4 pb-10 text-center mb-6">
-      <div className="font-bold text-6xl mb-4">Projects</div>
+      <div className="font-bold text-6xl mb-4">Projects🌸</div>
       <p>
         This is a showcase of some of the projects I worked on using different
         frameworks. Feel free to visit them!
