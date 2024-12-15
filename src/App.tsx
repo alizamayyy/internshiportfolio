@@ -87,86 +87,18 @@ export default function App() {
     []
   );
 
-  // const options: ISourceOptions = useMemo(
-  //   () => ({
-  //     background: {
-  //       color: {
-  //         value: "#0e1117", // Background color for the particles animation
-  //       },
-  //     },
-  //     fpsLimit: 120,
-  //     interactivity: {
-  //       events: {
-  //         onClick: {
-  //           enable: true,
-  //           mode: "push", // Push mode on click
-  //         },
-  //         onHover: {
-  //           enable: true,
-  //           mode: "repulse", // Repulse mode on hover
-  //         },
-  //       },
-  //       modes: {
-  //         push: {
-  //           quantity: 4,
-  //         },
-  //         repulse: {
-  //           distance: 200,
-  //           duration: 0.4,
-  //         },
-  //       },
-  //     },
-  //     particles: {
-  //       color: {
-  //         value: "#ffffff", // Particle color
-  //       },
-  //       links: {
-  //         color: "#ffffff",
-  //         distance: 150,
-  //         enable: true,
-  //         opacity: 0.5,
-  //         width: 1,
-  //       },
-  //       move: {
-  //         direction: MoveDirection.none,
-  //         enable: true,
-  //         outModes: {
-  //           default: OutMode.out,
-  //         },
-  //         random: false,
-  //         speed: 6,
-  //         straight: false,
-  //       },
-  //       number: {
-  //         density: {
-  //           enable: true,
-  //         },
-  //         value: 80, // Number of particles
-  //       },
-  //       opacity: {
-  //         value: 0.5,
-  //       },
-  //       shape: {
-  //         type: "circle", // Particle shape
-  //       },
-  //       size: {
-  //         value: { min: 1, max: 5 }, // Particle size range
-  //       },
-  //     },
-  //     detectRetina: true,
-  //   }),
-  //   []
-  // );
-
   const strings = [
     "dogs",
+    "froyo",
     "music",
-    "books",
+    "anime",
+    "coding",
     "eating",
+    "playing",
     "sleeping",
     "reading",
+    "studying",
     "writing",
-    "leading",
     "going out",
   ];
 
@@ -304,9 +236,9 @@ export default function App() {
         {" "}
         {/* Set z-index here */}
         <div className="ml-80 text-left mt-64">
-          <p className="">Hello! I am</p>
+          <p className="">🌸 Hello! I am</p>
           <h1 className="text-9xl font-bold text-[#fd8ea9]">Aliza May,</h1>
-          <p className="font-bold text-3xl">A FULL STACK WEB DEVELOPER</p>
+          <p className="font-bold text-3xl">A FULL STACK WEB DEVELOPER 🌸</p>
         </div>
         <div className="flex justify-center mt-4">
           <div className="relative w-4/6 h-full mt-6">
